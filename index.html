@@ -1,19 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--Ion Icons-->
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
     <!--Google Fonts-->
-
+    <link href='https://fonts.googleapis.com/css?family=Teko' rel='stylesheet'>
     <!--Our own stylesheet-->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css//themify-icons/themify-icons.css">
+
     <title>Hello, World!</title>
 </head>
+
 <body>
-<script src="script.js"></script>
+    <header>    <!-- page header-->
+        <div class="container">
+            <nav>   <!-- navigation-->
+                <div class="nav-brand"> <!-- logo-->
+                    <a href="index.html">
+                        <img src="./images/logo.png" alt="Page Logo">
+                    </a>
+                </div>
+                <div class="nav-right-icon">    
+                    <ul class="nav-right-list"> <!-- list -->
+                        <div class="menu-icon close">
+                            <i class="ti-close"></i>
+                        </div>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">contact</a>
+                        </li>
+                    </ul>
+                    <div class="menu-icon open">
+                        <i class="ti-align-justify"></i>
+                    </div>
+                    <div class="menu-icon search">
+                        <i class="ti-search"></i>
+                    </div>
+                    <div class="menu-icon cart">
+                        <i class="ti-shopping-cart"></i>
+                    </div>
+                    <div class="menu-icon heart">
+                        <i class="ti-heart"></i>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </header>
+    <script src="script.js"></script>
 </body>
+
 </html>
