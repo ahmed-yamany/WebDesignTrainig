@@ -1,61 +1,73 @@
 /*Start*/
 
-*, 
+*,
 *::before,
-*::after{
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
 }
-html{
+
+html {
     box-sizing: border-box;
     font-size: 10px;
 }
-.container{
+
+.container {
     width: 100%;
     max-width: 100rem;
     margin: 0 auto;
     padding: 0 1rem;
 }
-body{
+
+body {
     color: black;
     background-color: white;
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Nunito', sans-serif;
+
 }
-img{
+
+img {
     width: 100%;
     max-width: 100%;
     height: auto;
 }
-ul{
+
+ul {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
-                        /* header start */
-header{
+
+/* header start */
+header {
     width: 100%;
     height: 5rem;
+
 }
 
-.nav-brand{
+.nav-brand {
     width: 8.8rem;
     height: 2.6rem;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
 }
-.nav-right-icons .list-icons{
+
+.nav-right-icons .list-icons {
     display: flex;
     align-items: center;
 
 
 }
-.nav-right-list {   
+
+.nav-right-list {
     width: 25rem;
     height: 100vh;
     position: fixed;
@@ -69,33 +81,89 @@ nav{
     z-index: 1500;
     transition: all 650ms ease-in-out;
 }
-.nav-right-list.active{
+
+.nav-right-list.active {
     right: 0;
 }
-.nav-right-list .close{
+
+.nav-right-list .close {
     position: absolute;
     top: 1rem;
     left: 1rem;
     color: white;
 }
-.menu-icon i{
+
+.menu-icon i {
     font-size: 2rem;
     cursor: pointer;
     margin: 1rem;
     transition: color 700ms;
 }
-.list-icons i:hover{
+
+.list-icons i:hover {
     color: #FF5353;
 }
-.nav-link{
+
+.nav-link {
     color: rgba(255, 255, 255, 0.8);
     text-transform: uppercase;
-    font-family: 'Nunito', sans-serif;
     font-size: 1.6rem;
     font-weight: bold;
 }
-.nav-item{
+
+.nav-item {
     margin: 1.5rem 0;
 }
 
+/* hero start */
 
+.hero {
+    width: 100%;
+    background: url(../images/bg-1.jpg) center no-repeat;
+    background-size: cover;
+    text-transform: uppercase;
+}
+
+.hero .main-message {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.hero .message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem 0 0 0;
+    width: 100%;
+}
+
+.hero h3 {              
+    color: #565656;
+    font-size: 1.4rem;      
+    margin: 0 0 1.5rem;
+    letter-spacing: 2.8px;
+
+}
+
+.hero h1 {
+    font-size: 3rem;     
+    margin: 0 0 3.5rem;
+    text-transform: capitalize;
+}
+.btn{
+    color: white;
+    font-size: 1.4rem;
+    border-radius: 0.3rem;
+    background-color: #FF5353;
+    padding: 1.6rem 3rem;
+    font-weight: bold;
+    transition: all 650ms;
+
+}
+.btn:hover{
+    background-color: white;
+    color: #007bff;
+}
