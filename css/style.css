@@ -163,7 +163,7 @@ nav {
 }
 
 .hero h1 {
-    font-size: 4rem;
+    font-size: 3.6rem;
     line-height: 5.6rem;
     font-weight: 700;
 
@@ -271,4 +271,15 @@ nav {
     height: 21.5rem;
 
 }
+                 /*  most product */
 
+.most-product .product-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 2rem;
+}
+
+.most-product img {
+    width: 21rem;
+    height: 27.3rem;
+}
