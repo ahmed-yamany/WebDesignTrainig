@@ -11,6 +11,9 @@
 html {
     box-sizing: border-box;
     font-size: 10px;
+    --tran-color: color 650ms ;
+    --co-lor: #FF5353;
+
 }
 
 .container {
@@ -329,6 +332,7 @@ nav {
 .silon-journal .post{
     margin-bottom: 5rem;
     width: 33rem;
+    cursor: pointer;
 
 }
 .silon-journal h1{
@@ -346,7 +350,12 @@ nav {
     color: #888888;
     font-size: 1.3rem;
     padding-left: 2.2rem;
-    padding-bottom: 1rem;    
+    padding-bottom: 1rem; 
+    transition: var(--tran-color); 
+}
+.silon-journal h4:hover{
+    color: var(--co-lor);
+    
 }
 .silon-journal h4::before{
     content: "";
@@ -359,6 +368,12 @@ nav {
 }
 .silon-journal h3{
     font-size: 2rem;
+    transition: var(--tran-color);   
+
+}
+.silon-journal h3:hover{
+    color: var(--co-lor);
+    
 }
 .silon-journal hr{
     margin: 2rem 0;
@@ -368,4 +383,9 @@ nav {
     font-size: 1.4rem;
     display: flex;
     justify-content: space-between;
+    transition: var(--tran-color);
+}
+.silon-journal .icons:hover{
+    color: var(--co-lor);
+
 }
