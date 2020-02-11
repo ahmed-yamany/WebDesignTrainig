@@ -23,7 +23,7 @@ html {
 body {
     color: black;
     background-color: white;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -119,7 +119,7 @@ nav {
 
 .hero {
     width: 100%;
-    height: 100vh;
+    height: auto;
     background: url(../images/bg-1.jpg) center no-repeat;
     background-size: cover;
 }
@@ -189,38 +189,86 @@ nav {
     color: #007bff;
     background-color: white;
 }
-        /* featured product start */
 
-.featured-product{
+/* featured product start */
+
+.featured-product {
     width: 100%;
     height: auto;
     padding: 5rem 0 2rem;
 }
-.product{
+
+.product {
     text-align: center;
 }
-.featured-product .h1{
+
+.featured-product .h1 {
     font-size: 3.6rem;
     text-transform: uppercase;
     font-weight: 700;
     padding-bottom: 5rem;
 }
-.featured-product .product-images{
+
+.featured-product .product-images {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     grid-gap: 2rem;
 }
-.featured-product img{
+
+.featured-product img {
     width: 33rem;
     height: 41.3rem;
 }
-.featured-product h3{
+
+.featured-product h3 {
     color: #888888;
     font-size: 1.4rem;
     margin: 1.6rem 0 0 1rem;
 }
-.featured-product a{
+
+.featured-product a {
     color: #FF5353;
     font-size: 1.3rem;
-    
 }
+
+
+/* women-collection */
+.women-collection {
+    width: 100%;
+    height: auto;
+    background-color: #ECE3D7;
+
+}
+
+.women-collection .collection {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.women-collection .message{
+
+    margin: 5rem 0;
+}
+.women-collection h1{
+    font-size: 4rem ;
+    font-family: 'Dancing Script' , cursive;
+    margin: 0 0 1rem;
+}
+.women-collection h3{
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+
+
+
+}
+.women-collection .image{
+    width: 33rem;
+    height: 21.5rem;
+
+}
+
