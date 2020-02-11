@@ -189,3 +189,38 @@ nav {
     color: #007bff;
     background-color: white;
 }
+        /* featured product start */
+
+.featured-product{
+    width: 100%;
+    height: auto;
+    padding: 5rem 0 2rem;
+}
+.product{
+    text-align: center;
+}
+.featured-product .h1{
+    font-size: 3.6rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 5rem;
+}
+.featured-product .product-images{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 2rem;
+}
+.featured-product img{
+    width: 33rem;
+    height: 41.3rem;
+}
+.featured-product h3{
+    color: #888888;
+    font-size: 1.4rem;
+    margin: 1.6rem 0 0 1rem;
+}
+.featured-product a{
+    color: #FF5353;
+    font-size: 1.3rem;
+    
+}
