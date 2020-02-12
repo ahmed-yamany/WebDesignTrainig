@@ -11,7 +11,7 @@
 html {
     box-sizing: border-box;
     font-size: 10px;
-    --tran-color: color 650ms ;
+    --tran-color: color 650ms;
     --co-lor: #FF5353;
 
 }
@@ -173,7 +173,7 @@ nav {
 }
 
 .btn {
-    margin-top: 3.5rem;
+    margin-top: 1.5rem;
     color: white;
     font-size: 1.4rem;
     border-radius: 3px;
@@ -250,16 +250,19 @@ nav {
     align-items: center;
 
 }
-.women-collection .message{
+
+.women-collection .message {
 
     margin: 5rem 0;
 }
-.women-collection h1{
-    font-size: 4rem ;
-    font-family: 'Dancing Script' , cursive;
+
+.women-collection h1 {
+    font-size: 4rem;
+    font-family: 'Dancing Script', cursive;
     margin: 0 0 1rem;
 }
-.women-collection h3{
+
+.women-collection h3 {
     margin-bottom: 2rem;
     text-transform: uppercase;
     font-size: 1.5rem;
@@ -269,12 +272,14 @@ nav {
 
 
 }
-.women-collection .image{
+
+.women-collection .image {
     width: 33rem;
     height: 21.5rem;
 
 }
-                 /*  most product */
+
+/*  most product */
 
 .most-product .product-images {
     display: grid;
@@ -287,105 +292,329 @@ nav {
     height: 27.3rem;
 }
 
-        /* pink icons  */
+/* pink icons  */
 
-.pink-icons{
+.pink-icons {
     width: 100%;
     height: auto;
     text-align: center;
     padding: 5rem;
 
 }
-.pink-icons .message{
+
+.pink-icons .message {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
     grid-gap: 2rem;
 }
-.pink-icons .money{
+
+.pink-icons .money {
     border: 1px solid #ebeef0;
-    padding: 2.5rem ;
+    padding: 2.5rem;
 }
-.pink-icons img{
+
+.pink-icons img {
     width: 5.6rem;
     height: 4.1rem;
 }
-.pink-icons h1{
+
+.pink-icons h1 {
     text-transform: uppercase;
     font-size: 1.5rem;
     margin: 0 0 1rem;
 }
-.pink-icons h3{
+
+.pink-icons h3 {
     color: #888888;
     font-size: 1.4rem;
 }
-        /* silon journal */
 
-.silon-journal{
+/* silon journal */
+
+.silon-journal {
     width: 100%;
     height: auto;
 }
-.silon-journal .journal{
+
+.silon-journal .journal {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.silon-journal .post{
+
+.silon-journal .post {
     margin-bottom: 5rem;
     width: 33rem;
     cursor: pointer;
 
 }
-.silon-journal h1{
+
+.silon-journal h1 {
     text-align: center;
     font-size: 3.6rem;
     text-transform: uppercase;
     font-weight: 700;
     padding: 5rem 0;
 }
-.silon-journal img{
+
+.silon-journal img {
     width: 33rem;
     margin: 0 0 2.5rem;
 }
-.silon-journal h4{
+
+.silon-journal h4 {
     color: #888888;
     font-size: 1.3rem;
     padding-left: 2.2rem;
-    padding-bottom: 1rem; 
-    transition: var(--tran-color); 
+    padding-bottom: 1rem;
+    transition: var(--tran-color);
 }
-.silon-journal h4:hover{
+
+.silon-journal h4:hover {
     color: var(--co-lor);
-    
+
 }
-.silon-journal h4::before{
+
+.silon-journal h4::before {
     content: "";
     position: absolute;
     width: 12px;
     height: 6px;
-    background-color:#FF5353;
+    background-color: #FF5353;
     transform: translate(-2rem, 4px);
     border-radius: 2px;
 }
-.silon-journal h3{
+
+.silon-journal h3 {
     font-size: 2rem;
-    transition: var(--tran-color);   
+    transition: var(--tran-color);
 
 }
-.silon-journal h3:hover{
+
+.silon-journal h3:hover {
     color: var(--co-lor);
-    
+
 }
-.silon-journal hr{
+
+.silon-journal hr {
     margin: 2rem 0;
 }
-.silon-journal .icons{
+
+.silon-journal .icons {
     color: #888888;
     font-size: 1.4rem;
     display: flex;
     justify-content: space-between;
     transition: var(--tran-color);
 }
-.silon-journal .icons:hover{
+
+.silon-journal .icons:hover {
     color: var(--co-lor);
 
+}
+
+/* footer  */
+footer {
+    width: 100%;
+    background-color: #EBE3D7;
+
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
+    grid-gap: 2rem;
+    padding: 8rem 1.5rem 2rem;
+}
+
+footer h1 {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    padding: 0 0 2.5rem;
+}
+
+footer a {
+    color: #888888;
+    font-size: 1.4rem;
+}
+
+footer .about-us {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .about-us a {
+    padding: 0;
+
+    margin-bottom: 1rem;
+    transition: var(--tran-color);
+}
+
+footer .about-us a:hover {
+    color: var(--co-lor);
+}
+
+footer .experience-app .store {
+    display: flex;
+    margin-bottom: 3rem;
+    justify-content: center;
+    /* flex-direction: column; */
+
+}
+
+footer .experience-app .store a {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 1.2rem 3.5rem 1.2rem 0.5rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    line-height: 0.8;
+    min-width: 17rem;
+    transition: all 300ms ease-in-out;
+}
+
+footer .experience-app .store .android {
+    background-color: white;
+    margin-right: 3rem;
+}
+
+footer .experience-app .store .android p {
+    font-size: 1rem;
+    color: #4A4A4A;
+    padding: 0.3rem;
+}
+
+footer .experience-app .store .android h4 {
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 100;
+}
+
+footer .experience-app .store a i {
+    padding-right: 1rem;
+    font-size: 2rem;
+}
+
+footer .experience-app .store .android i {
+    color: #FF5353;
+}
+
+footer .experience-app .store .ios p {
+    font-size: 1rem;
+    padding: 0.3rem;
+}
+
+footer .experience-app .store .ios h4 {
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+
+footer .experience-app .store .ios {
+    background-color: #FF5353;
+    color: white;
+    /* margin-top: 1rem; */
+}
+
+.social {
+    margin: 3rem 0;
+}
+
+.media {
+    margin-top: 1.6rem;
+}
+
+.media i {
+    padding: 1rem;
+    margin: 0 0.5rem;
+    border-radius: 3px;
+    color: black;
+    background-color: white;
+    font-size: 1.4rem;
+    transition: all 650ms ease-in-out;
+}
+
+.media i:hover {
+    color: white;
+    background-color: #FF5353;
+}
+
+.copy {
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 2rem 0;
+    color: #888888;
+}
+
+.copy a {
+    color: #FF5353;
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        height: 26.7rem;
+    }
+
+    .hero .main-message {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hero .message {
+        padding: 2rem;
+    }
+
+    .hero img {
+        /* transform: translateY(27.5%); */
+        width: 35.4rem;
+        height: 26.7rem;
+    }
+
+    /* women-collection */
+    .women-collection {
+        height: 25.3rem;
+
+    }
+
+    .women-collection .collection {
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .women-collection .image {
+        width: 37rem;
+        height: 24.1rem;
+
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+    .featured-product .product-images {
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    }
+
+    .featured-product img {
+        width: 21rem;
+        height: 26.3rem;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .featured-product .product-images {
+        grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    }
+
+    .featured-product img {
+        width: 33rem;
+        height: 41.3rem;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .most-product .product-images {
+
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    }
 }
